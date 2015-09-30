@@ -6,11 +6,11 @@ using namespace std;
 
 /*
 *
-*  ____ ____    _  ___   __   
-* / ___/ ___|  / |/ _ \ / /_  
-*| |   \___ \  | | (_) | '_ \ 
+*  ____ ____    _  ___   __
+* / ___/ ___|  / |/ _ \ / /_
+*| |   \___ \  | | (_) | '_ \
 *| |___ ___) | | |\__, | (_) |
-* \____|____/  |_|  /_/ \___/ 
+* \____|____/  |_|  /_/ \___/
 *
 *
 *
@@ -21,15 +21,15 @@ using namespace std;
 *		 "this is the correct output!"
 * Do not simply reassign variables and delete the lines of code!!!
 * reference http://www.cplusplus.com/doc/tutorial/pointers/ for additional information on pointers!
-*/	
+*/
 
 
 int main() {
-	variable declarations
-	string *str1 = "This is the first part, ";
+	//variable declarations;
+	string str1 = "This is the first part, ";
 	string temp = "this is the second part, ";
-	string *str2 = temp;
-	string *temp2 = "and this is the third part";
+	string str2 = temp;
+	string temp2 = "and this is the third part";
 	string str3 = temp2;
 
 
